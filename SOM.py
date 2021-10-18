@@ -119,4 +119,4 @@ for index, image_vector in enumerate(image_vectors):
 output_image_name = "CB_size=" + str(codebook_size) + ".png"
 scipy.misc.imsave(output_image_name, image_after_compression)
 
-print "Mean Square Error = ", mse(image, image_after_compression)
+print(Mean Square Error = ", mse(image, image_after_compression))
